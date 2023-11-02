@@ -15,3 +15,16 @@ interface User {
       console.log(`Admin Rol: ${(user as Admin).adminRol}`);
     }
   }
+  const user: User = {
+    username: "juliana",
+    email: "jramirez@gmail.com",
+  };
+  
+  const adminUser: Admin = {
+    username: "nicolas",
+    email: "123@gmail.com",
+    adminRol: "admin",
+  };
+  
+  printUserData(user); 
+  printUserData(adminUser); 
