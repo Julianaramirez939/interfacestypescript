@@ -17,11 +17,11 @@ interface BaseObject {
     products: Product[];
   }
   
-  // Función genérica para imprimir datos
+  
   function imprimirDatos<T>(datos: T): void {
     console.log(datos);
   }
-// Ejemplo de uso
+
 const usuario: User = { id: 1, name: 'Juan', email: 'juan@example.com' };
 const producto: Product = { id: 2, name: 'Laptop', price: 999 };
 const orden: Order = {
