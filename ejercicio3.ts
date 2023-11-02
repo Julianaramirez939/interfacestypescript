@@ -1,4 +1,3 @@
-
 interface Product {
     name: string;
     precio: number;
@@ -56,4 +55,3 @@ interface Product {
   } else {
     console.log(`No se encontró un producto con el nombre: ${searchName}`);
   }
-  
